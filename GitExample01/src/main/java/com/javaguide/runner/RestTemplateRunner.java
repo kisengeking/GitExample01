@@ -33,6 +33,8 @@ public class RestTemplateRunner implements CommandLineRunner {
 	            System.out.println(info.getLastName());
 	            System.out.println(info.getDepartment());
 	        }
+	        
+	        System.out.println("test avec king");
 
 	}
 	
