@@ -15,6 +15,7 @@ public class EmployeeService {
     private EmployeeRepository employeeRepository;
 
     public List<EmployeeInfoDto> getAllEmployeeInfo() {
+    	System.out.println("GitExample01");
         return employeeRepository.findAllEmployeeInfo();
     }
 }
